@@ -35,7 +35,7 @@
 
 ## Quick Start
 
-Create a `docker-compose.yml` file with the following contents (adjust volumes to match your setup):
+Create a `docker-compose.yml` file and run `docker compose up -d`:
 
 ```yaml
 services:
@@ -57,11 +57,7 @@ services:
     restart: unless-stopped
 ```
 
-Then run:
-
-```bash
-docker compose up -d
-```
+---
 
 Open **http://localhost:1515** and follow the [First-Time Setup](#first-time-setup) steps.
 
