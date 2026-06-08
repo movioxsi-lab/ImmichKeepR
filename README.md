@@ -40,7 +40,7 @@ Create a `docker-compose.yml` file with the following contents (adjust volumes t
 ```yaml
 services:
   immichkeepr:
-    image: ghcr.io/yourusername/immichkeepr:latest
+    image: ghcr.io/movioxsi-lab/immichkeepr:latest
     container_name: ImmichKeepR
     ports:
       - "1515:1515"
